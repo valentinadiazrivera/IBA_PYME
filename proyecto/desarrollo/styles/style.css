@@ -1,0 +1,141 @@
+/*background del nav */
+.bg-black
+{
+    background-color: black !important;
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+/*nav menu*/
+#registro_enlace
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+#ingreso_enlace 
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+#ingreso_enlace li 
+{
+    list-style: none;
+
+}
+#registro_enlace li
+{
+    list-style: none;
+}
+
+#ingreso_enlace li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+#registro_enlace li a
+{
+    text-decoration: none;
+    color: white;
+}
+#carrito
+{
+    margin: 20px;
+}
+
+
+.btn-productos_servicios
+{
+    border-radius: 50px;
+}
+
+/*botones de navegavion*/
+.botones_stock
+{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.botones_stock a
+{
+    width: 45%;
+
+}
+/*inicio del estilo de los contenedores padre e hijo*/
+.hijo_cards
+{
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.1%;
+}
+
+
+
+/*aca empiezan los estilos de las cards*/
+.cards_productos
+{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D6D6D6;
+    flex-direction: column;
+    width: 200px;
+    height: 340px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.397);
+}
+.imagen_producto img
+{
+    border-radius: 20px 20px 0px 0px;
+}
+.nombre_card
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+.descripcion_producto
+{
+    display: flex;
+    margin: 4px 8px 0px 8px;
+    color: rgb(126, 126, 126);
+}
+.precio_cantidad_producto_orden
+{
+    display: flex;
+    margin: 0px 2px 4px 8px;
+}
+.precio_cantidad_producto_orden input
+{
+    width: 45px;
+    height: 20px;
+    margin: 0px 8px 1px 7px;
+    
+}
+.boton_compra
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.boton_compra button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
