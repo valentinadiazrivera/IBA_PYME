@@ -1,0 +1,163 @@
+.bg-black
+{
+    background-color: black !important;
+}
+.home-image
+{
+    
+    height:100vh;
+    
+}
+.main-btn
+{
+    background-color: var(--primary);
+    color: black;
+    border:solid  var(--primary) 2px;
+}
+
+.main-footer
+{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#registro_enlace
+{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+
+}
+#ingreso_enlace 
+{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+#ingreso_enlace li 
+{
+    list-style: none;
+
+}
+#registro_enlace li
+{
+    list-style: none;
+
+}
+
+#ingreso_enlace li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+#registro_enlace li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+/*inicio compras*/
+.carrito_de_compras
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.hijo
+{
+    display: flex;
+    background-color: #F2F2F2;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.padre_contenido
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.imagen_producto
+{
+    display: flex;
+    margin: 20px;
+    width: 10%;
+    height: 8rem;
+}
+.nombre_descripcion_basura
+{
+    display: flex;
+}
+.nombre_decripcion
+{
+    display: flex;
+    flex-direction: column;
+}
+.nombre
+{
+    display: flex;
+    justify-content: center; 
+}
+h3
+{
+    color: #7A7A7A;
+}
+.precio_texto_cantidad_boton_cantidad
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 108%;
+    margin-top: 30px;
+}
+
+.basura
+{
+    display: flex;
+
+}
+.boton_cantidad input
+{
+    border-radius: 8px;
+    width: 50px;
+    border: solid 1px #707070;
+
+}
+.precio_texto_cantidad_boton_cantidad .precio
+{
+    display: flex;
+    justify-content: start;
+}
+.precio_texto_cantidad_boton_cantidad .texto_cantidad
+{
+    display: flex;
+    margin-left: 70%;
+}
+
+.total
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#boton
+{
+    display: flex;
+    justify-content: center;
+}
+.btn-outline-success
+{
+    width: 210px;
+    height: 60px;
+    font-size:30px;
+    border: #707070 solid 1px;
+    border-radius: 81px;
+    background-color: #00a441;
+    color: white;
+}
+
